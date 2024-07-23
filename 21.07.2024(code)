@@ -1,0 +1,214 @@
+//concatenate strings and number
+public class Main {
+    public static void main(String []args)
+    {
+        String a="gg";
+        int b=20;
+        System.out.println(a+b);
+    }
+    
+}
+
+//Special charaters
+public class Main {
+    public static void main(String []args)
+    {
+        String a="gg /nis very good\rwhat is ahppe\nning girl happy birthday everyone\t i have kindom in uk\b that good actually\f fine thankyou";
+        
+        System.out.println(a);
+    }
+    
+}
+// JAVA MATH
+public class Main {
+    public static void main(String []args)
+    {
+        int x=5,y=10;
+        System.out.println("the maximum is "+Math.max(x,y));
+        System.out.println("the minimum is "+Math.min(x,y));
+        double z=-9.78;
+        System.out.println("ablsolute for"+x+"is ="+Math.abs(z));
+        System.err.println(Math.random());
+
+
+    }
+    
+}
+//BOOLEAN DATA TYPE
+public class Main {
+    public static void main(String []args)
+    {
+       boolean x=true;
+       boolean y=false;
+       System.out.println(x);
+       System.out.println(y);
+       boolean z;
+    
+       
+    }
+    
+}
+
+
+
+//X>Y
+public class Main {
+    public static void main(String []args)
+    {
+        int x=10,y=20;
+        boolean z=x>y;
+        System.out.println(z);
+       
+    }
+    
+}
+// IF STATEMENT
+public class Main {
+    public static void main(String []args)
+    {
+       int a=8;
+       if (a>5){
+        System.out.println("8 is greater than 5");
+
+       }
+       
+    }
+    
+}
+// IF ELSE
+public class Main {
+    public static void main(String []args)
+    {
+       int a=8;
+       if (a>10){
+        System.out.println(a+"is greater than 10");
+
+       }
+       else{
+        System.out.println(a+"is lesser than 10");
+       }
+       
+    }
+    
+}
+//IF ,ESLE IF,ELSE
+public class Main {
+    public static void main(String []args)
+    {
+       int a=8;
+       if (a>10){
+        System.out.println("good day");
+
+       }
+       else if(a>5 && a<10){
+        System.out.println("COUCOU");
+       }
+       else{
+        System.out.println("good eve");
+       }
+       
+    }
+    
+}
+//SWITCH CASE
+public class Main {
+    public static void main(String []args)
+    {
+       int a=3;
+       switch(a){
+        case 1:
+            System.out.println("Monday");
+            break;
+        case 2:
+            System.out.println("Sunday");
+            break;
+        case 3:
+            System.out.println("HBD");
+            break;
+        case 4:
+            System.out.println("holiday");
+            break;
+        default:
+            System.out.println("yessss");
+            break;
+
+       }
+        
+       
+    }
+    
+}
+//WHILE LOOP
+public class whileloop {
+    public static void main(String args[])
+    {
+        
+       int a=0;
+       while(a<5){
+        System.out.println(a);
+        a++;
+    }
+    
+}
+}
+
+
+
+//DO-WHILE
+public class whileloop {
+    public static void main(String args[])
+    {
+        
+       int a=0;
+    
+       do{
+        System.out.println(a);
+        a++;
+    }
+    while(a<6);
+    
+}
+}
+//FOR EACH
+public class foreachloop {
+    public static void main(String args[]){
+        String[] arr={"benz","BMW","Marda","volvo"};
+        for (String a:arr){
+            System.out.println(a);
+        }
+    }
+}
+// BREAK IN LOOP
+public class foreachloop {
+    public static void main(String args[]){
+
+        int a=0;
+        while(a<5){
+            if (a==2)
+            break;
+         System.out.println(a);
+         a++;}
+         
+    }
+}
+//USER INPUT
+import java.util.Scanner;
+public class foreachloop {
+    public static void main(String args[]){
+        Scanner obj=new Scanner(System.in);
+        System.out.println("enetr name");
+        String name=obj.nextLine();
+        System.out.println("enter the roll number");
+        int a=obj.nextInt();
+        System.out.println("name="+name+"\nroll no.="+a);      
+         
+    }
+}
+
+
+
+
+
+
+
+
