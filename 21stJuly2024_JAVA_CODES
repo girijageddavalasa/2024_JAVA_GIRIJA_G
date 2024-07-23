@@ -1,0 +1,36 @@
+//concatenate strings and number
+public class Main {
+    public static void main(String []args)
+    {
+        String a="gg";
+        int b=20;
+        System.out.println(a+b);
+    }
+    
+}
+
+//Special charaters
+public class Main {
+    public static void main(String []args)
+    {
+        String a="gg /nis very good\rwhat is ahppe\nning girl happy birthday everyone\t i have kindom in uk\b that good actually\f fine thankyou";
+        
+        System.out.println(a);
+    }
+    
+}
+// JAVA MATH
+public class Main {
+    public static void main(String []args)
+    {
+        int x=5,y=10;
+        System.out.println("the maximum is "+Math.max(x,y));
+        System.out.println("the minimum is "+Math.min(x,y));
+        double z=-9.78;
+        System.out.println("ablsolute for"+x+"is ="+Math.abs(z));
+        System.err.println(Math.random());
+
+
+    }
+    
+}
