@@ -8,7 +8,7 @@ public class Amstrong
         System.out.println("enter the 2nd number");
         int n2=sc.nextInt();
         
-        //assuming the given two numbers are having same no.of digts
+        //assuming the given two numbers are having same no.of digits
         int n=n1;
         int sum=0,nd=0;
         while(n>0)
